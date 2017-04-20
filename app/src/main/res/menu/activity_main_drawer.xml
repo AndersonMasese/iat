@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+
+            android:title="View Professionals" />
+        <item
+            android:id="@+id/nav_gallery"
+
+            android:title="Upload Pro Credentials" />
+
+        <item
+
+            android:autoLink="web"
+            android:title="Payment Claim"
+            android:id="@+id/claim"/>
+        <item
+
+            android:autoLink="web"
+            android:title="Pro's password"
+            android:id="@+id/password"/>
+        <!--
+        <item
+            android:id="@+id/nav_slideshow"
+
+            android:title="Campuses" />
+        <item
+            android:id="@+id/nav_manage"
+
+            android:title="Courses" />
+            -->
+    </group>
+<!--
+    <item android:title="Talk to Us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+
+                android:title="Careers" />
+            <item
+                android:id="@+id/nav_send"
+
+                android:title="Contact " />
+        </menu>
+    </item>
+    -->
+
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zpanel.anderson.zebaki"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Zebaki"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zpanel.anderson.zebaki.MainActivity"
+            android:label="Zebaki"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zpanel.anderson.zebaki.Help" />
+        <activity android:name="com.zpanel.anderson.zebaki.Courses" />
+        <activity android:name="com.zpanel.anderson.zebaki.Profile" />
+        <activity android:name="com.zpanel.anderson.zebaki.Campuses" />
+        <activity android:name="com.zpanel.anderson.zebaki.ParseJSON" />
+        <activity android:name="com.zpanel.anderson.zebaki.RegisterActivity" />
+        <activity android:name="com.zpanel.anderson.zebaki.Success" />
+        <activity android:name="com.zpanel.anderson.zebaki.Professionals" />
+        <activity android:name="com.zpanel.anderson.zebaki.Profile1" />
+        <activity android:name="com.zpanel.anderson.zebaki.ParseJSON1" />
+        <activity android:name="com.zpanel.anderson.zebaki.RegisterActivity1" />
+    </application>
+
+</manifest>
